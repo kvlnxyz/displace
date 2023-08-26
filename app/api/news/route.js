@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 const news_key = process.env.NEWS_KEY;
-const query = "bitcoin";
-const result_count = 6;
+const query = "maui";
+const result_count = 12;
 
 const get_news = async () => {
   const response = await fetch(
