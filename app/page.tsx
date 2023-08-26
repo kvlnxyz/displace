@@ -11,6 +11,8 @@ export default function Home() {
       const res = await fetch("/api/news");
       const res_obj = await res.json();
 
+      console.log(res_obj);
+
       let articles: any = [];
 
       for (let i = 0; i < res_obj.articles.length; i++) {
