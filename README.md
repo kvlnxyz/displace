@@ -1,7 +1,9 @@
 ### Displace
 
 - [ ] Auth
-- [x] Leaderboard
-- [x] Referral system
-- [x] Listings page
-- [ ] Signup flow
+- [ ] Referrals
+- [ ] Leaderboard
+- [ ] Ranking algorithm
+- [ ] Shelter uploading flow
+- [ ] Admin panel
+- [ ] Search interface

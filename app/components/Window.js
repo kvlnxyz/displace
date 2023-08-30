@@ -3,7 +3,7 @@
 export default function Window(props) {
   return (
     <a href={props.url} target="_blank">
-      <div className="flex flex-col w-96  bg-[#0F0F0F] space-y-4 px-2 py-2 mx-1 my-1">
+      <div className="flex flex-col w-96  bg-[#FFFF00] space-y-4 px-2 py-2 mx-1 my-1">
         <div>{props.title}</div>
         <img
           src={
